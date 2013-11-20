@@ -1,1 +1,1 @@
-A simple first-person shooter example implemented using Microsoft XNA (4.0) framework. Implements camera movements, rotations, collition detections and simple physics like acceleration and jumping.
+A simple first-person shooter example implemented using Microsoft XNA (4.0) framework. Implements camera movements and rotations, collition detections and basic physics like gravity and jumping.

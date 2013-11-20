@@ -256,8 +256,7 @@ namespace FirstPersonCameraWindows.Models
             Vertices[3].Position = UpperRight;
             Vertices[3].TextureCoordinate = textureUpperRight;
 
-            // Set the index buffer for each vertex, using
-            // clockwise winding
+            // Set the index buffer for each vertex, using clockwise winding
             Indexes[0] = 0;
             Indexes[1] = 1;
             Indexes[2] = 2;

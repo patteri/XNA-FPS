@@ -87,8 +87,10 @@ namespace FirstPersonCameraWindows.Models
         private void addQuad(Vector3 normal, float x, float y, float z, float width, float height, Texture2D texture)
         {
             Vector3 up = Vector3.Up;
-            if (normal == Vector3.Up) up = Vector3.Backward;
-            if (normal == Vector3.Down) up = Vector3.Backward;
+            if (normal == Vector3.Up || normal == Vector3.Down)
+            {
+                up = Vector3.Backward;
+            }
 
             Models.Add(new Quad(Device, texture, new Vector3(x, y, z), normal, up, width, height));
         }
